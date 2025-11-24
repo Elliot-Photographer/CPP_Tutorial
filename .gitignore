@@ -1,0 +1,38 @@
+# C++ compiled files
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+*.ko
+
+# Libraries
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Debug files
+*.dSYM/
+*.pdb
+
+# Build directories
+build/
+bin/
+Debug/
+Release/
+x64/
+x86/
+
+# IDE files (optional)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
