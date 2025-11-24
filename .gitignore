@@ -1,38 +1,29 @@
-# C++ compiled files
+# Check if .gitignore exists
+ls -la | grep gitignore
+
+# If not, create it
+cat > .gitignore << 'EOF'
+# Compiled files
 *.exe
 *.out
 *.app
-
-# Object files
 *.o
 *.obj
-*.ko
-
-# Libraries
 *.a
-*.lib
-*.dll
 *.so
-*.dylib
-
-# Debug files
-*.dSYM/
-*.pdb
+*.dll
 
 # Build directories
 build/
 bin/
 Debug/
 Release/
-x64/
-x86/
 
-# IDE files (optional)
+# IDE
 .vscode/
 .idea/
 *.swp
-*.swo
 
-# OS generated files
+# OS
 .DS_Store
-Thumbs.db
+EOF
